@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Kendo test</title>
+    <link href="content/kendo.mobile.all.min.css" rel="stylesheet" />
+    <link href="content/site.min.css" rel="stylesheet" />
+
+    <link href="app/gatekeper/gatekeper.min.css" rel="stylesheet" />
+
+</head>
+<body kendo-mobile-application id="appScope" k-hash-bang="true" k-skin="'flat'" k-transition="'slide'" k-initial="'app/gatekeper/signin.html'" k-hash-bang="true">
+
+    <kendo-mobile-layout k-id="'gatekeper-layout'">
+        <kendo-mobile-header>
+            <kendo-mobile-nav-bar>
+                <kendo-view-title></kendo-view-title>
+            </kendo-mobile-nav-bar>
+        </kendo-mobile-header>
+
+    </kendo-mobile-layout>
+
+    <kendo-mobile-layout k-id="'home-layout'">
+        <kendo-mobile-header>
+            <kendo-mobile-nav-bar>
+                <kendo-view-title></kendo-view-title>
+            </kendo-mobile-nav-bar>
+        </kendo-mobile-header>
+
+        <kendo-mobile-footer>
+            <kendo-mobile-tab-strip>
+            </kendo-mobile-tab-strip>
+        </kendo-mobile-footer>
+    </kendo-mobile-layout>
+
+
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/angular.js"></script>
+    <script src="lib/kendo.all.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/gatekeper/gatekeeper.controller.js"></script>
+    <script src="app/gatekeper/signIn.viewmodel.js"></script>
+    <script src="app/home/home.controller.js"></script>
+    <script src="lib/cordovaAppBoot.js"></script>
+    <script src="cordova.js"></script>
+
+    <script>
+        cordovaAppBoot.initialize();
+    </script>
+</body>
+</html>

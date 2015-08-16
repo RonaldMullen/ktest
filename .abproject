@@ -1,0 +1,45 @@
+{
+  "ProjectName": "KandoMobileUIDemo",
+  "ProjectGuid": "17b87ca5-8295-42ac-8b36-8f15d9417ca3",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.KandoMobileUIDemo",
+  "DisplayName": "KandoMobileUIDemo",
+  "Author": "",
+  "Description": "KandoMobileUIDemo",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.7.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{004dd69f-2abb-4bcc-99a9-3138d5c91903}",
+  "WP8ProductID": "{5a0ce0ef-d164-4e9d-a262-8a9f616a4253}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.KandoMobileUIDemo",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}

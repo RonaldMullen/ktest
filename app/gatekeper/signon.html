@@ -1,0 +1,31 @@
+<kendo-mobile-view id="signon" k-title="'Sign On'" k-layout="'gatekeper-layout'" ng-controller="gatekeeperCtrl as gk">
+    <form id="signinForm">
+        <ul kendo-mobile-list-view k-style="'inset'">
+            <li>
+                <label for="username" class="km-label">User name</label>
+                <input name="username" type="text" placeholder="User name" class="k-textbox" />
+            </li>
+            <li>
+                <label for="firstname" class="km-label">First name</label>
+                <input name="firstname" type="text" placeholder="First name" class="k-textbox" />
+            </li>
+            <li>
+                <label for="lastname" class="km-label">Last name</label>
+                <input name="lastname" type="text" placeholder="Last name" class="k-textbox" />
+            </li>
+            <li>
+                <label for="emailaddress" class="km-label">Email</label>
+                <input name="emailaddress" type="text" placeholder="Last name" class="k-textbox" />
+            </li>
+            <li>
+                <label for="password" class="km-label">Password</label>
+                <input name="password" type="password" placeholder="password" class="k-textbox" />
+            </li>
+            <li>
+                <div>
+                    <kendo-mobile-button ng-click="gk.signOnComplete()">Sign On</kendo-mobile-button>
+                </div>
+            </li>
+        </ul>
+    </form>
+</kendo-mobile-view>

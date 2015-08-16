@@ -1,0 +1,46 @@
+<kendo-mobile-view id="signin"
+                   k-title="'Sign In'" k-use-native-scrolling="'true'" k-layout="'gatekeper-layout'"
+                   ng-controller="gatekeeperCtrl as gk"
+                   class="default">
+    <form id="signinForm"
+          kendo-validator k-options="gk.signinValidationOptions"
+          ng-submit="gk.signIn()"
+          novalidate="novalidate">
+        <ul kendo-mobile-list-view k-style="'inset'">
+            <li>
+                <label for="username" class="km-label">User name</label>
+                <input name="username"
+                       type="text"
+                       k-ng-model="gk.signInViewModel.userName"
+                       required
+                       placeholder="user name"
+                       class="k-textbox " />
+            </li>
+            <li>
+                <label for="password" class="km-label">Password</label>
+                <input name="password"
+                       type="password"
+                       k-ng-model="gk.signInViewModel.userName"
+                       required
+                       placeholder="password"
+                       class="k-textbox" />
+            </li>
+            <li>
+                <div>
+                    <button kendo-mobile-button
+                            type="submit"
+                            ng-click="gk.signIn()">
+                        Sign in
+                    </button>
+                </div>
+            </li>
+        </ul>
+    </form>
+
+    <ul kendo-mobile-list-view k-style="'inset'">
+        <li>
+            <a ng-click="gk.signOn()" class="km-link">Create a new account</a>
+        </li>
+    </ul>
+
+</kendo-mobile-view>
